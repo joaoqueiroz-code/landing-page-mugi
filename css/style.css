@@ -1,0 +1,88 @@
+body {
+    font-family: 'Antonio', sans-serif;
+
+}
+
+#background {
+    background-color: rgb(15, 15, 15);
+
+}
+
+main {
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+/*FORMULÁRIO*/
+
+form {
+    
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    left: 300px;
+    top:100px;
+}
+
+form h1 {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+
+}
+
+form p {
+    padding: 10px;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form fieldset {
+    padding: 30px;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+    margin-top:10px;
+}
+
+input {
+    width: 75%;
+    padding:8px 65px 8px 5px;
+
+}
+
+
+.checkbox {
+	margin: 20px 0;
+} 
+
+.enviar {
+    font-family: 'Antonio', sans-serif;
+    padding: 15px 0;
+    margin:20px 0px 0px 74px;
+    display: block;
+	width:50%;
+	background: rgb(15, 15, 15);
+	color: white;
+    letter-spacing: 2px;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: rgb(36, 36, 36);
+    letter-spacing: 4px;
+}
+
+/*IMAGE*/
+
+.imgOp {
+
+    width: 30%;
+
+}
