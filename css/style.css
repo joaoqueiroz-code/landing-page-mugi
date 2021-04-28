@@ -47,9 +47,16 @@ form label, form legend {
     margin-top:10px;
 }
 
-input {
+form input {
     width: 75%;
     padding:8px 65px 8px 5px;
+
+}
+
+form input:focus {
+    outline: none;
+    border:2px solid rgb(0, 0, 0);
+    /*box-shadow: 0 0 10px #222222;*/
 
 }
 
